@@ -1,0 +1,5 @@
+fill 81, 199, 236, 1 escuro
+132, 221, 255, 1 meio escuro
+100, 209, 251, 1 meio claro
+
+179, 229, 255, 1 claro

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
+    <title>WebCraftZone</title>
+</head>
+
+<body>
+    <iframe src="../frames/menu.html" frameborder="0" width="100%" height="250"></iframe>
+    <div class="sidebarMenu">
+        <iframe src="../frames/sidebar.html" frameborder="0" width="250" height="100%"></iframe>
+    </div>
+    <div class='Contato'>
+        <h1>Contato</h1>
+        <p>&emsp;Entre em contato conosco hoje mesmo para saber mais sobre nossos serviços.
+            Nossa equipe está disponível para responder a todas as suas perguntas e fornecer
+            informações detalhadas sobre como podemos ajudar a sua empresa a ter sucesso na internet.
+            Você pode nos contatar por telefone, e-mail ou preenchendo o formulário em nosso site.
+            Estamos ansiosos para ouvir de você!</p>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.9650967675!2d-49.30139222457002!3d-25.372486230618634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce0db5d1b252b%3A0x113a2955662fa675!2sR.%20Machado%20de%20Assis%2C%20374%20-%20Tangu%C3%A1%2C%20Alm.%20Tamandar%C3%A9%20-%20PR%2C%2083508-310!5e0!3m2!1spt-BR!2sbr!4v1680798542084!5m2!1spt-BR!2sbr"
+                frameborder="0" width="40%" height="250"></iframe>
+            <div class="formulario">
+                <form action="enviar-email.php" method="post">
+                    <label for="nome">Nome:</label>
+                    <br>
+                    <input type="text" id="nome" name="nome" placeholder="Nome completo" required>
+                    <br>
+
+                    <label for="email">   E-mail:</label>
+                    <br>
+                    <input type="email" id="email" name="email" required placeholder="Exemplo@email.com" >
+                    <br>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <br>
+                    <textarea id="mensagem" name="mensagem" required cols="48" rows="10" placeholder="Explique sua duvida..."></textarea>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+        </class>
+        <footer>
+            <iframe src="../frames/footer.html" frameborder="0" width="100%" height="50"></iframe>
+        </footer>
+</body>
+
+</html>

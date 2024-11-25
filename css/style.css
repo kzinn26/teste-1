@@ -1,0 +1,141 @@
+body {
+  background-color: rgba(226, 222, 203, 1);
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+ /* background-color: rgba(31, 58, 77, 0.8);*/
+
+}
+
+.logoMenu {
+  width: 130px;
+  height: auto;
+}
+
+.botao {
+  background-color: #4AB3D4;
+  /* cor de fundo do botão */
+  border: none;
+  /* remove a borda do botão */
+  border-radius: 10px;
+  /*borda com circuferencia*/
+  color: white;
+  /* cor do texto do botão */
+  padding: 10px 20px;
+  /* espaço interno do botão */
+  text-align: center;
+  /* centraliza o texto */
+  text-decoration: none;
+  /* remove sublinhado do texto */
+  display: inline-block;
+  /* exibe o botão como um bloco */
+  font-size: 16px;
+  /* tamanho da fonte do texto */
+  margin: 10px;
+  /* margem ao redor do botão */
+  cursor: pointer;
+  /* muda o cursor do mouse para uma mãozinha */
+  width: 120px;
+  height: 20px;
+}
+
+.botao:hover {
+  background-color: #008CBA;
+  /* cor de fundo do botão ao passar o mouse */
+  color: white;
+  /* cor do texto do botão ao passar o mouse */
+}
+
+.botao:active {
+  background-color: #1F3A4D;
+  /* cor de fundo do botão quando clicado */
+  color: white;
+  /* cor do texto do botão quando clicado */
+  box-shadow: 0 5px #666;
+  /* sombra do botão quando clicado */
+  transform: translateY(4px);
+  /* deslocamento do botão quando clicado */
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+h1 {
+  width: 50%;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 20px;
+  font-size: 30px;
+}
+
+p {
+  width: 50%;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+}
+
+.sidebarMenu {
+  position: fixed;
+  /* Fixa o menu na página */
+  top: 0;
+  left: 0px;
+  bottom: 0;
+  width: 100px;
+  /* Largura do menu */
+  height: 100%;
+  /*background-color: #1F3A4D; /* Cor de fundo */
+  color: white;
+  /* Cor do texto */
+}
+
+
+ul {
+  list-style-type: none;
+  /*limpa o ponto do comeco das listas*/
+}
+
+.hiddenBotton {
+  text-align: center;
+}
+
+.hiddenBar {
+  display: block;
+}
+
+.eye-open {
+  width: 50px;
+  height: 50px;
+}
+
+.eye-close {
+  width: 100px;
+  height: 100px;
+}
+
+.map {
+  width: 50%;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 20px;
+  display:flex;
+}
+
+.formulario{
+  margin-left: 10px;
+}
